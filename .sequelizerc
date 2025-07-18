@@ -3,5 +3,5 @@ module.exports = {
     seedersPath: pah.resolve('./src/db/seeders'),
     modelsPath: pah.resolve('./src/db/models'),
     migrationsPath: pah.resolve('./src/db/migrations'),
-    config: pah.resolve('./src/config/db.config.js'),
+    config: pah.resolve('./src/config/sequelize.config.js'),
 }

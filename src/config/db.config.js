@@ -7,10 +7,10 @@ console.log('DB_HOST:', process.env.DB_HOST);
 
 const config={
     development:{
-        username: process.env.DB_USER,
-        password: process.env.DB_PASSWORD,
-        database: process.env.DB_NAME,
-        host: process.env.DB_HOST,
+        username: process.env.DB_USER ||'root',
+        password: process.env.DB_PASSWORD|| 'Shikshagaur@123',
+        database: process.env.DB_NAME||'airbnb_dev',
+        host: process.env.DB_HOST||'localhost',
         dialect: 'mysql'
 
     }
